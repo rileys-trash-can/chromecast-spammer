@@ -1,6 +1,7 @@
 # Chromecast spammer
 
-A small little script by derz
+A small little selfexplenatory script by derz.
+
 Based on the [chromecast-api](https://github.com/alxhotel/chromecast-api) libary by [alxhotel](https://github.com/alxhotel)
 
 ## how to install
