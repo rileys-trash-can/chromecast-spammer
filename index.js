@@ -46,6 +46,7 @@ con.registercmd("devices", (argv) => {
 
 con.registercmd("refresh", (argv) => {
 	console.log("Triggering mDNS and SSDN search")
+	client.devices = []
 	client.update()
 })
 con.alias("refresh", "update")
