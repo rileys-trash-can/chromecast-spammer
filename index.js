@@ -80,6 +80,8 @@ con.registercmd("send", (argv, r) => {
 	if( !warned && !http.listening ) return r(console.log("Can't send cuz http is not listening\nexecute again to bypass this warning\nyou have been warned", warned = true))
 	
 	let found = false
+	argv.shift()
+	argv[1] = argv.join(" ")
 
 	client.devices.forEach((d) => {
 		if( d.friendlyName === argv[1] ) {
