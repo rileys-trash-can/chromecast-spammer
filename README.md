@@ -4,6 +4,10 @@ A small little selfexplenatory script by derz.
 
 Based on the [chromecast-api](https://github.com/alxhotel/chromecast-api) libary by [alxhotel](https://github.com/alxhotel)
 
+Be careful, this project was not tested at all. 
+
+Really I'm to lazy to
+
 ## how to install
 
 ```bash
