@@ -14,7 +14,7 @@ Really I'm to lazy to
 sudo apt install nodejs git
 git clone https://github.com/eds-trash-can/chromecast-spammer.git # download repo
 cd chromecast-spammer.git # go into folder
-git submodules update --init # get deps 1/2
+git submodule update --init # get deps 1/2
 npm i # get deps 2/2
 ```
 
