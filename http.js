@@ -40,7 +40,7 @@ this.url = _ => {
 this.filepath = "video.mp4";
 
 app.get("/video.mp4", (req, res) => {
-	let path = "./" + this.filepath
+	let path = this.filepath
     fs.stat(path, (err, stat) => { //thx for the example i basically just copied it :))) https://webomnizz.com/video-stream-example-with-nodejs-and-html5/
     
     // Handle file not found
